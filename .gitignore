@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.idea/
+
+data/raw/boards_gif/*
+data/raw/boards_png/*
+data/processed/squares/*
+
+# Keep empty folders visible in GitHub
+!data/raw/boards_gif/.gitkeep
+!data/raw/boards_png/.gitkeep
+!data/processed/squares/.gitkeep
+
+# Trained model files
+models/*.pt
+models/*.pth
+models/*.keras
+models/*.onnx
+
+# Local notebook outputs
+*.log

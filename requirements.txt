@@ -1,0 +1,29 @@
+# Core data handling
+numpy>=1.26,<3.0
+pandas>=2.2,<4.0
+
+# Chess position generation, FEN parsing, and Stockfish communication
+chess>=1.11,<2.0
+
+# Downloading and processing Lichess board images
+requests>=2.31,<3.0
+Pillow>=10.0,<13.0
+opencv-python>=4.9,<5.0
+
+# CNN model training
+torch>=2.7,<3.0
+torchvision>=0.22,<1.0
+
+# Evaluation and visualization
+scikit-learn>=1.5,<2.0
+matplotlib>=3.8,<4.0
+
+# Notebook experimentation
+jupyterlab>=4.2,<5.0
+ipykernel>=6.29,<7.0
+
+# Testing
+pytest>=8.0,<9.0
+
+# Simple application interface for the final stage
+streamlit>=1.35,<2.0

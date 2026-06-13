@@ -21,3 +21,6 @@ models/*.onnx
 
 # Local notebook outputs
 *.log
+
+# Generated image metadata
+data/raw/image_manifest.csv

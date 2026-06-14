@@ -4,8 +4,11 @@ __pycache__/
 .ipynb_checkpoints/
 .idea/
 
+# Generated board images
 data/raw/boards_gif/*
 data/raw/boards_png/*
+
+# Generated cropped square images, if we create them later
 data/processed/squares/*
 
 # Keep empty folders visible in GitHub
@@ -13,14 +16,18 @@ data/processed/squares/*
 !data/raw/boards_png/.gitkeep
 !data/processed/squares/.gitkeep
 
+# Generated image metadata
+data/raw/image_manifest.csv
+
+# Generated preprocessing metadata
+data/processed/square_manifest.csv
+data/processed/class_distribution.csv
+
 # Trained model files
 models/*.pt
 models/*.pth
 models/*.keras
 models/*.onnx
 
-# Local notebook outputs
+# Local logs
 *.log
-
-# Generated image metadata
-data/raw/image_manifest.csv
